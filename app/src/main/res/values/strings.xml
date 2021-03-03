@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Users Github</string>
+    <string name="edt_search">Search</string>
+    <string name="error_message">An Error Occurred!</string>
+    <string name="hello_message">Search an User.</string>
+
+    <string name="avatar_description">Avatar user</string>
 </resources>

@@ -14,7 +14,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:padding="10dp"
-        android:hint="Search"/>
+        android:hint="@string/edt_search"/>
 
     <ViewFlipper
         android:id="@+id/vflipper"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textSize="18sp"
-            android:text="Search an User."
+            android:text="@string/hello_message"
             />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textSize="18sp"
-            android:text="An Error Occurred!"
+            android:text="@string/error_message"
             />
     </ViewFlipper>
 

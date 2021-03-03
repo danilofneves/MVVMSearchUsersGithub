@@ -6,38 +6,35 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by Danilo 15/12/2020.
- */
 public class Response implements Serializable {
     public static final String ID = "response";
 
     @SerializedName("total_count")
     @Expose
-    private String name;
+    private String totalCounts;
 
     @SerializedName("incomplete_results")
     @Expose
-    private String nickname;
+    private String incompleteResults;
 
     @SerializedName("items")
     @Expose
     private List<User> users;
 
-    public String getName() {
-        return name;
+    public String getTotalCounts() {
+        return totalCounts;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTotalCounts(String totalCounts) {
+        this.totalCounts = totalCounts;
     }
 
-    public String getNickname() {
-        return nickname;
+    public String getIncompleteResults() {
+        return incompleteResults;
     }
 
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
+    public void setIncompleteResults(String incompleteResults) {
+        this.incompleteResults = incompleteResults;
     }
 
     public List<User> getUsers() {

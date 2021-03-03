@@ -3,10 +3,8 @@ package com.github.users.data.repository;
 
 
 import com.github.users.data.model.Response;
-import com.github.users.data.model.User;
 import com.github.users.data.service.UserService;
 
-import java.util.List;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

@@ -5,9 +5,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
-/**
- * Created by Danilo 15/12/2020.
- */
 public class User implements Serializable {
     public static final String ID = "user";
 
